@@ -1,6 +1,7 @@
 package main;
 
-public class Dog {
+public class Dog implements Animal {
+		
 		String name;
 		Boolean isModified = false;
 		public Dog(String name){
@@ -11,7 +12,7 @@ public class Dog {
 			
 			String name = "dsfsdf";
 			Modify();
-			System.out.println(this.name);
+			System.out.println(this.allName);
 		}
 		
 		private void Modify(){
